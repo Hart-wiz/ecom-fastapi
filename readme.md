@@ -25,3 +25,4 @@ my-ecommerce-backend/
 ├── **init**.py # (Optional, but good for larger apps)
 └── ... # Defines what JSON data looks like moving in/out
 # ecom-fastapi
+# ecom-fastapi

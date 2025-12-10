@@ -1,20 +1,14 @@
-
-# Virtual environment
-.venv/
-venv/
-env/
-
-# Sensitive information/local settings
-local_settings.py
-.env
-
-
 # Byte-code files
 *.pyc
 *.pyd
 *.pyo
 __pycache__/
 
+# Virtual environment
+.venv/
+venv/
+env/
+/instance/ # Flask specific
 
 # Distribution / build files
 .Python
@@ -22,3 +16,28 @@ build/
 dist/
 *.egg-info/
 .eggs/
+
+# IDE-specific files
+.idea/
+.vscode/
+*.swp
+*.bak
+*.swo
+
+# OS-specific files
+.DS_Store # macOS
+Thumbs.db # Windows
+
+# Jupyter Notebook files
+.ipynb_checkpoints/
+
+# Database files
+*.sqlite3
+db.sqlite3
+
+# Log files
+*.log
+
+# Sensitive information/local settings
+local_settings.py
+.env
